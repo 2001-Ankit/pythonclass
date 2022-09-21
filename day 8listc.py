@@ -25,18 +25,18 @@
 # # print(a*2)
 
 # # User Defined List
-# l = []
-# s = 0
-# n = int(input("Enter the value of n ="))
-# for i in range(n):
-#     x = int(input("Enter a number = "))
-#     l = l + [x]
-#     s = s + x
-# print("The maximum value of ", max(l))
-# print("The minimum value of ", min(l))
-# print("The sum =", sum(l))
-# l.sort()
-# print(l)
+l = []
+s = 0
+n = int(input("Enter the value of n ="))
+for i in range(n):
+    x = int(input("Enter a number = "))
+    l = l.append(x)
+    s = s + x
+print("The maximum value of ", max(l))
+print("The minimum value of ", min(l))
+print("The sum =", sum(s))
+l.sort()
+print(l)
 # l.reverse()
 # print(l)
 
